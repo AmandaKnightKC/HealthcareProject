@@ -4,6 +4,12 @@ This project looks at how enrollment in ACA Marketplace plans changed over time,
 
 ---
 
+## Note on Time Period
+
+This analysis focuses on Marketplace enrollment and affordability trends from 2020 to 2022 — a period significantly influenced by the COVID-19 pandemic and temporary policy changes under the American Rescue Plan Act (ARPA). As such, the patterns observed (e.g., spikes in enrollment, expanded subsidies, shifts in plan choices) reflect behavior during an emergency policy environment. This project does not attempt to generalize these trends beyond this window, but rather examines how key Marketplace metrics responded to extraordinary economic and policy conditions.
+
+---
+
 ## Data Sources
 
 Data is pulled from the CMS Marketplace Open Enrollment Period Public Use Files (PUFs):
@@ -27,7 +33,7 @@ Reference PDFs and dictionaries are stored locally in `/docs`.
 
 ## Tools
 
-- SQL (via BigQuery / SQLite / etc.)
+- SQL (MySQL)
 - Python (Pandas, data loading)
 - Tableau (planned visuals)
 - Git / GitHub
